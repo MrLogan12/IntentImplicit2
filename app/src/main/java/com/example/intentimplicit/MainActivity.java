@@ -64,4 +64,12 @@ public class MainActivity extends AppCompatActivity {
         btnLlamar = findViewById(R.id.btnLlamar);
         btnCamara = findViewById(R.id.btnCamara);
     }
+    private boolean revisarPermisos(String permiso){
+        //android maneja los permisos de sta manera:
+        //granted: permiso otrogado
+        //denied: permiso no otrogado
+        //validar si el permiso a evaluar en su aplicacion tiene  el valor de android
+        // que maneja android para otorgar un permiso otrogado que seria
+        //granted
+    }
 }
